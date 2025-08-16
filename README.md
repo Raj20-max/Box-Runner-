@@ -15,7 +15,18 @@ Move fast, dodge obstacles, and collect shiny coins to climb the leaderboard. On
 
 ⚡ The longer you last, the harder it gets!
 <hr> 
+⚙️ Installation & Setup
 
+Clone the repo and start running it locally in just a few steps:
+
+# 1. Clone the repository
+git clone https://github.com/Raj20-max/Box-Runner-.git
+
+# 2. Navigate into the project folder
+cd Box-Runner-
+
+# 3. Open index.html in your browser and play! 🎉
+<hr>
 🌟 Features
 
 ✨ Smooth controls for quick reflex action.

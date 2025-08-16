@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Box Runner </title>
+  <link rel="icon" href="box runner logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <p>Run, dodge, and collect coins!</p>
+  </header>
+  <main>
+    <div class="stage-wrap">
+      <div class="frame">
+        <canvas id="game" width="480" height="720"></canvas>
+        <div class="hud">
+          <span class="pill">Score: <strong id="score">0</strong></span>
+          <span class="pill">Best: <strong id="best">0</strong></span>
+          <span class="pill">Speed: <strong id="speed">1.0x</strong></span>
+        </div>
+        <div class="controls">
+          <button id="startBtn" class="btn anim-btn start">Start</button>
+          <button id="stopBtn" class="btn anim-btn stop">Stop</button>
+          <button id="restartBtn" class="btn anim-btn restart">Restart</button>
+        </div>
+      </div>
+    </div>
+<!-- ...existing code... -->
+  </main>
+
+  <footer>
+
+    <small>Use ← / → to switch lanes, Space to jump, R to restart.</small>
+  </footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
